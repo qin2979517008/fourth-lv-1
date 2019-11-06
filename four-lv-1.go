@@ -14,7 +14,7 @@ func main() {
 	}
 
 	for a:=0;a<len(str);a++{
-		if str[a] !=0{
+		if str[a] !='0'{
 			fmt.Println("input ok!")
 		}
 	}
